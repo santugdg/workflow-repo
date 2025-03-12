@@ -1,7 +1,7 @@
 name: CI/CD pipeline
 on:
   push:
-    branches :
+    branches:
       - main
 
 jobs:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-        uses: actions/checkout@4.2.2
+        uses: actions/checkout@v4.2.2
 
       - name: Build
-        run: echo "Building"
+        run: echo "Building.."
